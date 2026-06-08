@@ -1,0 +1,100 @@
+{
+  "logo": {
+    "type": "kitty",
+    "source": "/home/anbi/Downloads/kitty_ff.jpeg",
+    "height": 14,
+    "padding": {
+      "top": 2,
+      "left": 4,
+    },
+  },
+
+  "display": {
+    "key": {
+      "width": 15,
+    },
+    "color": "#FF00FF",
+    "separator": "--",
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": "anbi@fromBTown",
+    },
+    "separator",
+    {
+      "type": "os",
+      "key": "OS       ",
+      "keyColor": "#00FFFF",
+      "format": "Fedora (Btw)",
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel   ",
+      "keyColor": "#00FFFF",
+      "format": "{1} {2}",
+    },
+    {
+      "type": "users",
+      "key": "User     ",
+      "keyColor": "#00FFFF",
+      "format": "Anbi",
+    },
+    "break",
+    {
+      "type": "uptime",
+      "key": "Uptime   ",
+      "keyColor": "#00FFFF",
+    },
+    {
+      "type": "board",
+      "key": "Device   ",
+      "keyColor": "#00FFFF",
+      "format": "ThinkPad T14s",
+    },
+    {
+      "type" : "de",
+      "key": "DE       ",
+      "keyColor": "#00FFFF",
+      "format": "{2}",
+    },
+    {
+      "type" : "wm",
+      "key": "WM       ",
+      "keyColor": "#00FFFF",
+      "format": "Wayland",
+    },
+    {
+      "type": "cpu",
+      "key": "CPU      ",
+      "temp": true,
+      "showPeCoreCount": true,
+      "keyColor": "#00FFFF",
+      "format": "{1}",
+    },
+    {
+      "type": "gpu",
+      "key": "GPU      ",
+      "temp": true,
+      "showPeCoreCount": true,
+      "keyColor": "#00FFFF",
+      "format": "{1} {2} {4}",
+    },
+    {
+      "type": "memory",
+      "key": "RAM      ",
+      "temp": true,
+      "showPeCoreCount": true,
+      "keyColor": "#00FFFF",
+      "format": "{1} / {2} {3}",
+    },
+    "break",
+    {
+      "type": "Disk",
+      "key": "Disk     ", // maybe {2} or {3}
+      "keyColor": "#00FFFF",
+      "format": "{1} / {2} {3} ",
+    },
+  ],
+}
