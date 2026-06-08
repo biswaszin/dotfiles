@@ -33,7 +33,7 @@ zinit light Aloxaf/fzf-tab
 autoload -U compinit && compinit
 compinit -d "$XDG_CACHE_HOME/zsh/zcompdump"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f ~/.config/powerlevel10k/.p10k.zsh ]] || source ~/.config/powerlevel10k/.p10k.zsh
 
 
 # Keybindings
