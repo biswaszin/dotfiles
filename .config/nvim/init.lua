@@ -1,7 +1,3 @@
--- ============================================================
--- SECTION 1: FOUNDATION
--- Core Neovim settings, leaders, options, basic keymaps, basic autocmds
--- ============================================================
 do
   -- Enable faster startup by caching compiled Lua modules
   vim.loader.enable()
